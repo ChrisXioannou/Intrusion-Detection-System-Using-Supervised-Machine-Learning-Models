@@ -25,6 +25,7 @@ This study evaluates and compares multiple supervised learning algorithms:
  - 📈 Logistic Regression – Linear model for classification, suitable for detecting general patterns.
  - 🚀 XGBoost – Optimized gradient boosting model for improved classification performance.
  - 📊 Naïve Bayes – A probabilistic classifier useful for handling categorical data.
+
 Each model was fine-tuned using RandomizedSearchCV and k-fold cross-validation, ensuring optimal performance in detecting cyber threats.
 
 ## 📢 **Contribute & Support**
