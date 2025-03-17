@@ -20,11 +20,11 @@ The research aims to improve detection accuracy while reducing false positives, 
 
 ## 📊 **Machine Learning Models Used**
 This study evaluates and compares multiple supervised learning algorithms:
- -🌲 Random Forest – Robust tree-based classifier, effective in feature importance analysis.
- -🔍 k-Nearest Neighbors (KNN) – Excels in anomaly detection with minimal false alarms.
- -📈 Logistic Regression – Linear model for classification, suitable for detecting general patterns.
- -🚀 XGBoost – Optimized gradient boosting model for improved classification performance.
- -📊 Naïve Bayes – A probabilistic classifier useful for handling categorical data.
+ - 🌲 Random Forest – Robust tree-based classifier, effective in feature importance analysis.
+ - 🔍 k-Nearest Neighbors (KNN) – Excels in anomaly detection with minimal false alarms.
+ - 📈 Logistic Regression – Linear model for classification, suitable for detecting general patterns.
+ - 🚀 XGBoost – Optimized gradient boosting model for improved classification performance.
+ - 📊 Naïve Bayes – A probabilistic classifier useful for handling categorical data.
 Each model was fine-tuned using RandomizedSearchCV and k-fold cross-validation, ensuring optimal performance in detecting cyber threats.
 
 ## 📢 **Contribute & Support**
