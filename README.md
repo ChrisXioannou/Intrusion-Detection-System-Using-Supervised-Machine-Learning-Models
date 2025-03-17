@@ -13,10 +13,19 @@ These insights emphasize the importance of **selecting models based on IDS deplo
 
 ## 🖥️ **Code Overview**
 The code provided in this repository enables users to train and evaluate supervised machine learning models for intrusion detection. The models were tested on the KDD Cup 1999 dataset with a focus on:
- Feature Selection & Engineering
- Binary vs. Multi-Class Classification
- Performance Metrics & Model Comparisons
+ - Feature Selection & Engineering
+ - Binary vs. Multi-Class Classification
+ - Performance Metrics & Model Comparisons
 The research aims to improve detection accuracy while reducing false positives, providing insights into the best models for different IDS deployment scenarios
+
+## 📊 **Machine Learning Models Used**
+This study evaluates and compares multiple supervised learning algorithms:
+-🌲 Random Forest – Robust tree-based classifier, effective in feature importance analysis.
+-🔍 k-Nearest Neighbors (KNN) – Excels in anomaly detection with minimal false alarms.
+-📈 Logistic Regression – Linear model for classification, suitable for detecting general patterns.
+-🚀 XGBoost – Optimized gradient boosting model for improved classification performance.
+-📊 Naïve Bayes – A probabilistic classifier useful for handling categorical data.
+Each model was fine-tuned using RandomizedSearchCV and k-fold cross-validation, ensuring optimal performance in detecting cyber threats.
 
 ## 📢 **Contribute & Support**
 🌟 If you find this project useful, please star ⭐ this repository!
