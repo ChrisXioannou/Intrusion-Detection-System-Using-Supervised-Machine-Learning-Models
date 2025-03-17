@@ -17,5 +17,3 @@ These insights emphasize the importance of **selecting models based on IDS deplo
 
 ## 🖥️ **Code Overview**
 The code provided in this repository enables users to **train and evaluate supervised machine learning models** for **intrusion detection**. The models were tested on the **KDD Cup 1999 dataset** with a focus on **feature selection, classification approaches, and performance metrics**.
-
-### **📂 Repository Structure**
