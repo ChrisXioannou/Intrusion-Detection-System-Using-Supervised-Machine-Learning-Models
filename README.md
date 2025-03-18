@@ -40,7 +40,9 @@ Implements multi-class classification, categorizing network traffic into Normal,
 Contains the code for training binary classification models, distinguishing between normal traffic and attacks. This notebook explores false positive rates, detection accuracy, and model comparisons for a simplified intrusion detection approach.
 
 🔗 Dataset & Configuration
-You can download the full KDD Cup 1999 dataset used in this research here: **Dataset Link:** [View the full Dataset here](https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
+You can download the full KDD Cup 1999 dataset used in this research here:
+
+**Dataset Link:** [View the full Dataset here](https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
 
 ## 📢 **Contribute & Support**
 🌟 If you find this project useful, please star ⭐ this repository!
