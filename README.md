@@ -16,6 +16,7 @@ The code provided in this repository enables users to train and evaluate supervi
  - Feature Selection & Engineering
  - Binary vs. Multi-Class Classification
  - Performance Metrics & Model Comparisons
+
 The research aims to improve detection accuracy while reducing false positives, providing insights into the best models for different IDS deployment scenarios
 
 ## 📊 **Machine Learning Models Used**
@@ -28,16 +29,18 @@ This study evaluates and compares multiple supervised learning algorithms:
 
 Each model was fine-tuned using RandomizedSearchCV and k-fold cross-validation, ensuring optimal performance in detecting cyber threats.
 
-## 📂 ** Project Structure & How to Use the Code**
+## 📂 **Project Structure & How to Use the Code**
 The repository contains Jupyter Notebooks that guide you through training and evaluating Intrusion Detection Models. Make sure to update the path variables to match your directory structure before running the code.
-- 📌 Notebooks Available
- - 📄 MultiClass_Classification.ipynb – Implements multi-class classification, categorizing network traffic into Normal, DoS, Probe, R2L, and U2R attack types. This approach is more detailed but comes with higher computational costs and class imbalance challenges.
- - 📄 Binary_Classification.ipynb – Contains the code for training binary classification models, distinguishing between normal traffic and attacks. This notebook explores false positive rates, detection accuracy, and model comparisons for a simplified intrusion detection approach.
+
+📌 **Notebooks Available**
+ - 📄 **MultiClass_Classification.ipynb**
+Implements multi-class classification, categorizing network traffic into Normal, DoS, Probe, R2L, and U2R attack types. This approach is more detailed but comes with higher computational costs and class imbalance challenges.
+
+ - 📄 **Binary_Classification.ipynb**
+Contains the code for training binary classification models, distinguishing between normal traffic and attacks. This notebook explores false positive rates, detection accuracy, and model comparisons for a simplified intrusion detection approach.
 
 🔗 Dataset & Configuration
-You can download the full KDD Cup 1999 dataset used in this research here: KDD Cup 1999 Dataset.
-
-Before running the notebooks, modify the dataset and output paths in the configuration section to match your local or Google Drive directory setup
+You can download the full KDD Cup 1999 dataset used in this research here: **Dataset Link:** [View the full Dataset here](https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
 
 ## 📢 **Contribute & Support**
 🌟 If you find this project useful, please star ⭐ this repository!
