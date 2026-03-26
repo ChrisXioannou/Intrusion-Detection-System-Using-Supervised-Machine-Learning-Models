@@ -52,6 +52,3 @@ You can download the full KDD Cup 1999 dataset used in this research here:
 
 
 
-
-
-
